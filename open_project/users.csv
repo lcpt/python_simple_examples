@@ -1,0 +1,5 @@
+"id","login","firstname","lastname","mail","admin","status","last_login_on","language","auth_source_id","created_on","updated_on","type","identity_url","mail_notification","first_login","force_password_change","failed_login_count","last_failed_login_on","consented_at"
+"2","","","Anonymous","","f","0","\N","","\N","2019-05-17 12:04:50.362679","2019-05-17 12:04:50.362679","AnonymousUser","\N","only_my_events","t","f","0","\N","\N"
+"4","ana.ortega@xcingenieria.com","Ana","Ortega","ana.ortega@xcingenieria.com","t","1","2019-06-06 17:24:33.809339","en","\N","2019-05-17 14:02:17.299954","2019-06-06 17:24:33.811866","User","\N","all","f","f","0","2019-05-17 14:04:02.525288","\N"
+"1","admin","OpenProject","Admin","l.pereztato@xcengineering.xyz","t","1","2019-05-17 12:08:55.629525","en","\N","2019-05-17 12:04:50.069606","2019-05-17 13:37:04.478009","User","\N","only_my_events","f","f","0","2019-05-17 12:08:25.987291","\N"
+"3","l.pereztato@gmail.com","Luis Claudio","Pérez Tato","l.pereztato@gmail.com","t","1","2019-06-17 17:14:15.726954","en","\N","2019-05-17 13:57:46.542776","2019-06-17 17:14:15.731784","User","\N","all","f","f","0","\N","\N"

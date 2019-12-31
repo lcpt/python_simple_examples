@@ -1,0 +1,182 @@
+"id","type_id","project_id","subject","description","due_date","category_id","status_id","assigned_to_id","priority_id","fixed_version_id","author_id","lock_version","done_ratio","estimated_hours","created_at","updated_at","start_date","responsible_id","cost_object_id","position","story_points","remaining_hours"
+"49","1","3","Three-dimensional structural analysis model","","\N","\N","1","\N","8","\N","3","2","0","16","2019-05-17 14:24:10.303834","2019-05-17 15:30:32.437398","\N","\N","\N","1","\N","16"
+"2","7","1","Password reset does not send email","\N","\N","\N","4","1","8","1","1","0","0","\N","2019-05-17 12:04:50.969059","2019-05-17 12:04:50.982245","\N","\N","\N","1","\N","\N"
+"3","5","1","New website","\N","2019-06-08","\N","1","1","8","\N","1","0","0","\N","2019-05-17 12:04:50.991767","2019-05-17 12:04:51.004341","2019-06-08","\N","\N","1","\N","\N"
+"50","1","3","Analysis","","\N","\N","1","\N","8","\N","3","2","0","8","2019-05-17 14:25:07.69576","2019-05-17 15:30:54.048632","\N","\N","\N","1","\N","8"
+"51","1","3","Detailed design of structural members","","\N","\N","1","\N","8","\N","3","2","0","112","2019-05-17 14:27:30.462045","2019-05-17 15:32:13.547797","\N","\N","\N","1","\N","112"
+"43","1","3","Detailed design","\N","\N","\N","1","\N","8","\N","3","3","0","136","2019-05-17 14:16:35.839357","2019-05-17 15:32:13.58028","\N","\N","\N","1","\N","136"
+"7","1","1","Create wireframes for new landing page","\N","2019-06-08","\N","7","1","8","3","1","1","0","\N","2019-05-17 12:04:51.102486","2019-05-17 12:04:51.130151","2019-06-08","\N","\N","1","\N","\N"
+"6","6","1","New landing page","\N","2019-06-08","\N","3","1","8","3","1","1","0","\N","2019-05-17 12:04:51.084065","2019-05-17 12:04:51.146435","2019-06-08","\N","\N","2","3","\N"
+"53","1","3","Bill of quantities","","\N","\N","1","\N","8","\N","3","2","0","32","2019-05-17 14:29:16.895438","2019-05-17 15:34:48.709335","\N","\N","\N","1","\N","32"
+"9","6","1","Feature carousel","\N","\N","\N","3","1","8","3","1","0","0","\N","2019-05-17 12:04:51.178353","2019-05-17 12:04:51.190271","\N","\N","\N","3","5","\N"
+"10","1","1","Make screenshots for feature tour","\N","\N","\N","13","1","8","3","1","1","0","\N","2019-05-17 12:04:51.196828","2019-05-17 12:04:51.226027","\N","\N","\N","1","\N","\N"
+"11","7","1","Wrong hover color","\N","2019-06-03","\N","4","1","8","3","1","0","0","\N","2019-05-17 12:04:51.236445","2019-05-17 12:04:51.24847","2019-06-03","\N","\N","4","1","\N"
+"54","1","3","Preparation of the calculation report","","\N","\N","1","\N","8","\N","3","2","0","32","2019-05-17 14:29:55.168743","2019-05-17 15:35:13.101059","\N","\N","\N","1","\N","32"
+"44","1","3","Project deliverables","\N","\N","\N","1","\N","8","\N","3","3","0","184","2019-05-17 14:16:49.257422","2019-05-17 15:35:13.132992","\N","\N","\N","1","\N","184"
+"12","6","1","SSL certificate","\N","2019-06-04","\N","3","1","8","2","1","0","0","\N","2019-05-17 12:04:51.258801","2019-05-17 12:04:51.305706","2019-06-04","\N","\N","1","\N","\N"
+"13","6","1","Set-up Staging environment","\N","2019-06-05","\N","2","1","8","2","1","0","0","\N","2019-05-17 12:04:51.315524","2019-05-17 12:04:51.327921","2019-06-05","\N","\N","2","\N","\N"
+"59","1","3","Admin","","\N","\N","1","3","8","\N","3","1","0","\N","2019-05-17 15:36:54.682914","2019-05-17 15:37:04.812142","\N","\N","\N","1","\N","\N"
+"8","6","1","Contact form","\N","2019-06-03","\N","3","1","8","3","1","0","0","\N","2019-05-17 12:04:51.155912","2019-05-17 12:04:51.168392","2019-06-03","\N","\N","8","1","\N"
+"67","1","4","Public relations","Relations with collaborators, clients and providers not for a specific objective.","\N","\N","1","\N","8","\N","3","0","0","\N","2019-05-20 09:42:59.136911","2019-05-20 09:42:59.151235","\N","\N","\N","1","\N","\N"
+"15","6","1","Website navigation structure","\N","2019-06-07","\N","3","1","8","3","1","0","0","\N","2019-05-17 12:04:51.358957","2019-05-17 12:04:51.370796","2019-06-07","\N","\N","7","3","\N"
+"73","1","8","Issue management","\N","\N","\N","1","\N","8","\N","3","0","0","\N","2019-05-28 11:14:01.395198","2019-05-28 11:14:01.419432","\N","\N","\N","1","\N","\N"
+"16","1","1","Set up navigation concept for website.","\N","2019-06-07","\N","1","1","8","3","1","1","0","\N","2019-05-17 12:04:51.377199","2019-05-17 12:04:51.404708","2019-06-07","\N","\N","1","\N","\N"
+"1","6","1","New login screen","\N","\N","\N","2","1","8","2","1","0","0","\N","2019-05-17 12:04:50.907137","2019-05-17 12:04:50.950925","\N","\N","\N","6","\N","\N"
+"4","6","1","Newsletter registration form","\N","\N","\N","1","1","8","2","1","1","0","\N","2019-05-17 12:04:51.010957","2019-05-17 12:04:51.040648","\N","\N","\N","11","\N","\N"
+"5","6","1","Implement product tour","\N","\N","\N","1","1","8","2","1","1","0","\N","2019-05-17 12:04:51.047238","2019-05-17 12:04:51.077107","\N","\N","\N","7","\N","\N"
+"14","6","1","Choose a content management system","\N","2019-06-06","\N","3","1","8","2","1","0","0","\N","2019-05-17 12:04:51.337622","2019-05-17 12:04:51.349477","2019-06-06","\N","\N","8","\N","\N"
+"17","6","1","Internal link structure","\N","2019-06-07","\N","1","1","8","2","1","0","0","\N","2019-05-17 12:04:51.414267","2019-05-17 12:04:51.426367","2019-06-07","\N","\N","5","\N","\N"
+"42","1","3","Preliminary design","\N","\N","\N","1","\N","8","\N","3","6","0","80","2019-05-17 14:16:16.496835","2019-05-17 15:29:50.600807","\N","\N","\N","1","\N","80"
+"18","3","1","Develop v1.0","\N","2019-05-30","\N","1","1","8","\N","1","0","0","\N","2019-05-17 12:04:51.435432","2019-05-17 12:04:51.446355","2019-05-27","\N","\N","1","\N","\N"
+"52","1","3","Preparation of construction drawings","","\N","\N","1","\N","8","\N","3","2","0","120","2019-05-17 14:28:19.326853","2019-05-17 15:34:33.225184","\N","\N","\N","1","\N","120"
+"19","2","1","Release v1.0","\N","2019-05-31","\N","1","1","8","\N","1","0","0","\N","2019-05-17 12:04:51.455036","2019-05-17 12:04:51.466181","2019-05-31","\N","\N","1","\N","\N"
+"20","3","1","Develop v1.1","\N","2019-06-06","\N","1","1","8","\N","1","0","0","\N","2019-05-17 12:04:51.475758","2019-05-17 12:04:51.487131","2019-06-03","\N","\N","1","\N","\N"
+"21","2","1","Release v1.1","\N","2019-06-07","\N","1","1","8","\N","1","0","0","\N","2019-05-17 12:04:51.496234","2019-05-17 12:04:51.507211","2019-06-07","\N","\N","1","\N","\N"
+"22","3","1","Develop v2.0","\N","2019-06-13","\N","1","1","8","\N","1","0","0","\N","2019-05-17 12:04:51.516088","2019-05-17 12:04:51.527106","2019-06-10","\N","\N","1","\N","\N"
+"60","1","7","Fee proposal","\N","\N","\N","1","3","8","\N","3","1","0","\N","2019-05-17 15:42:50.641747","2019-05-17 15:43:35.32783","\N","\N","\N","1","\N","\N"
+"23","2","1","Release v2.0","\N","2019-06-14","\N","1","1","8","\N","1","0","0","\N","2019-05-17 12:04:51.536541","2019-05-17 12:04:51.547564","2019-06-14","\N","\N","1","\N","\N"
+"24","2","2","Project kick-off","Plan and execute the project kick-off.","2019-05-17","\N","6","1","9","\N","1","0","50","8","2019-05-17 12:04:51.73296","2019-05-17 12:04:51.745494","2019-05-17","\N","\N","1","\N","\N"
+"68","1","4","Administration","General administration tasks.","\N","\N","1","\N","8","\N","3","0","0","\N","2019-05-21 10:50:01.628454","2019-05-21 10:50:01.68339","\N","\N","\N","1","\N","\N"
+"74","1","6","Registration and consultation of tendering Internet sites.","Registration on tendering Internet sites (TED, SIMAP, Visma Tendsign, ...). Consultations of tenders and documents on those sites.","\N","\N","1","\N","8","\N","3","1","0","\N","2019-05-29 09:49:57.706496","2019-05-29 09:51:41.154096","\N","\N","\N","1","\N","\N"
+"45","1","3","Review of background information.","","\N","\N","1","\N","8","\N","3","2","0","24","2019-05-17 14:17:59.249684","2019-05-17 15:26:58.849006","\N","\N","\N","1","\N","24"
+"26","1","2","Create a new project","Please [create a new project](/projects/new) from the project drop down menu in the left hand header navigation.
+
+**You can:**
+* give your project a name,
+* add a project description,
+* create a project structure,
+* set a project to public.
+
+**Visuals:**
+![new project](/attachments/1)
+
+**Find out more:**
+* https://www.openproject.org/help/administration/manage-projects/
+","2019-05-13","\N","1","1","8","\N","1","2","0","\N","2019-05-17 12:04:51.772756","2019-05-17 12:04:51.868456","2019-05-13","\N","\N","1","\N","\N"
+"48","1","3","Estimation of structural member sizes","","\N","\N","1","\N","8","\N","3","2","0","32","2019-05-17 14:23:30.8442","2019-05-17 15:29:50.568798","\N","\N","\N","1","\N","32"
+"27","1","2","Customize project overview page","You can [customize your project overview page](/my_projects_overview/demo-project/page_layout) to add important information, such as project description, important links, work packages overview, news, and much more.
+
+**You can:**
+* edit the project overview by clicking on the gear icon,
+* add a project description,
+* add links to important project information or custom reports,
+* insert news or work packages,
+* and much more.
+
+**Visuals:**
+![project overview](/attachments/2)
+
+**Find out more:**
+* https://www.openproject.org/help/project-setup/
+","2019-05-13","\N","1","1","8","\N","1","2","0","\N","2019-05-17 12:04:51.874748","2019-05-17 12:04:51.925147","2019-05-13","\N","\N","1","\N","\N"
+"61","1","8","Debugging","\N","\N","\N","1","\N","8","\N","3","0","0","\N","2019-05-19 18:32:55.365266","2019-05-19 18:32:55.418157","\N","\N","\N","1","\N","\N"
+"62","1","8","Modelling utilities (Python code)","\N","\N","\N","1","\N","8","\N","3","0","0","\N","2019-05-19 18:33:35.041212","2019-05-19 18:33:35.05331","\N","\N","\N","1","\N","\N"
+"47","1","3","Design of the structural layout","","\N","\N","1","\N","8","\N","3","2","0","8","2019-05-17 14:22:27.424879","2019-05-17 15:29:09.263844","\N","\N","\N","1","\N","8"
+"28","1","2","Activate further modules","Please activate further [Modules](/projects/demo-project/settings/modules) in the Project settings in order to have more features in your project.
+
+**You can:**
+* add a Scrum module (Backlogs),
+* add time tracking, reporting, and budgets (Time Tracking, Cost Reports, Budgets),
+* add a wiki,
+* add meetings,
+* and more.
+
+**Visuals:**
+![project modules](/attachments/3)
+
+**Find out more:**
+* https://www.openproject.org/help/activate-deactivate-modules/
+","2019-05-13","\N","1","1","8","\N","1","2","0","\N","2019-05-17 12:04:51.931732","2019-05-17 12:04:51.982076","2019-05-13","\N","\N","1","\N","\N"
+"63","1","8","English translation","Translate to English the Doxygen documentation.","\N","\N","1","\N","8","\N","3","1","0","\N","2019-05-19 18:34:21.325733","2019-05-19 18:37:32.752006","\N","\N","\N","1","\N","\N"
+"36","7","2","Terrible bug","\N","2019-06-06","\N","4","1","8","\N","1","1","0","\N","2019-05-17 12:04:52.320059","2019-05-17 12:04:52.347738","2019-06-04","\N","\N","1","\N","\N"
+"69","1","8","Program development","","\N","\N","1","3","8","\N","3","1","0","\N","2019-05-21 17:21:30.488705","2019-05-21 17:21:51.464568","\N","\N","\N","1","\N","\N"
+"75","1","11","Project management.","Project administration","\N","\N","1","3","8","\N","3","1","0","\N","2019-06-13 10:33:09.605524","2019-06-13 10:33:26.424101","\N","\N","\N","1","\N","\N"
+"29","1","2","Invite new team members","Please invite new team members by going to [Members](/projects/demo-project/members) in the project navigation.
+
+**You can:**
+* add existing users to  a project by typing in their names,
+* invite new users to OpenProject by typing in their email address,
+* assign a certain role in this project for each user.
+
+**Visuals:**
+![project members](/attachments/4)
+
+**Find out more:**
+* https://www.openproject.org/help/add-project-members/
+","2019-05-14","\N","1","1","9","\N","1","2","0","\N","2019-05-17 12:04:51.988429","2019-05-17 12:04:52.038886","2019-05-14","\N","\N","1","\N","\N"
+"55","1","5","OpenProject installation.","","\N","\N","1","3","8","\N","3","1","0","\N","2019-05-17 14:38:24.561021","2019-05-17 14:40:32.737187","\N","\N","\N","1","\N","\N"
+"30","1","2","Create work packages","Please create work packages for your project. Go to [Work package](/projects/demo-project/work_packages) and click the green +Create button.
+
+**You can**:
+* create any type of work, e.g. features, tasks, bugs, risks, ideas,
+* add a title and description,
+* add attachments via copy and paste to the description,
+* set status, priority and assign it to a team member,
+* insert any custom field to the forms.
+
+**Visuals**:
+![create work package](/attachments/5)
+
+**Find out more**:
+* https://www.openproject.org/help/work-packages/create-new-work-package/
+","2019-05-14","\N","1","1","9","\N","1","2","0","\N","2019-05-17 12:04:52.044832","2019-05-17 12:04:52.095933","2019-05-14","\N","\N","1","\N","\N"
+"56","1","5","Project creation","","\N","\N","1","3","8","\N","3","1","0","\N","2019-05-17 14:47:53.476707","2019-05-17 14:48:23.343669","\N","\N","\N","1","\N","\N"
+"37","2","2","Go-Live v1.0","\N","2019-06-07","\N","6","1","8","\N","1","0","0","\N","2019-05-17 12:04:52.35721","2019-05-17 12:04:52.369133","2019-06-07","\N","\N","1","\N","\N"
+"70","1","9","Computers maintenance","All tasks related to maintenance of the computers: software installation,  backup, problem solving...","\N","\N","1","3","8","\N","3","1","0","\N","2019-05-23 11:01:54.350623","2019-05-23 11:02:47.355865","\N","\N","\N","1","\N","\N"
+"64","1","9","Document management","Mail archive. Document storage. Document template creation.","\N","\N","1","3","8","\N","3","3","0","\N","2019-05-20 08:03:53.618948","2019-05-29 09:59:49.193077","\N","\N","\N","1","\N","\N"
+"76","1","11","Calculation and calculation report","\N","\N","\N","1","3","8","\N","3","0","0","\N","2019-06-13 10:34:05.554998","2019-06-13 10:34:05.572068","\N","\N","\N","1","\N","\N"
+"31","1","2","Create a project plan","Please create a project plan by going to [Project plan](/projects/demo-project/work_packages?query_id=6) in the project navigation.
+
+**You can:**
+* create new phases and milestones by simply clicking in the project plan,
+* change phases and milestones with drag and drop,
+* add labels, such as start and finish date, title, or assignee,
+* add dependencies by right clicking on a phase or milestone and choose pre-decessor or follower,
+* custom columns, group, filter and save timeline reports to have them at your fingertips.
+
+**Visuals:**
+![gantt chart](/attachments/6)
+
+**Find out more:**
+* https://www.openproject.org/help/timelines/integrated-timeline-work-package-page/
+","2019-05-15","\N","1","1","9","\N","1","2","0","\N","2019-05-17 12:04:52.101602","2019-05-17 12:04:52.155307","2019-05-15","\N","\N","1","\N","\N"
+"65","1","9","Internet related maintenance","Mail and web maintenance.","\N","\N","1","\N","8","\N","3","0","0","\N","2019-05-20 09:17:37.323538","2019-05-20 09:17:37.381598","\N","\N","\N","1","\N","\N"
+"57","1","3","Fee proposal","","\N","\N","1","3","8","\N","3","1","0","24","2019-05-17 15:21:48.814454","2019-05-17 15:26:05.995975","\N","\N","\N","1","\N","24"
+"71","1","4","Continuous training","\N","\N","\N","1","\N","8","\N","4","0","0","\N","2019-05-23 17:08:34.555682","2019-05-23 17:08:34.569822","\N","\N","\N","1","\N","\N"
+"32","1","2","Edit a work package","[Edit a work package](/projects/demo-project/work_packages/41/activity) by double clicking on a row in the list view or open the split screen with the ""i"".
+
+**You can**:
+* change title or description,
+* assign it to a team member,
+* comment on topics or notify team members with @-notifications,
+* set status, priority, finish dates or other custom fields,
+* include documents or screenshots with copy & paste,
+* add relations to other work packages,
+* change forms in the Administration settings.
+
+**Visuals**:
+![edit work package](/attachments/7)
+
+**Find out more**:
+* https://www.openproject.org/help/work-packages/
+","2019-05-16","\N","1","1","9","\N","1","2","0","\N","2019-05-17 12:04:52.161092","2019-05-17 12:04:52.212789","2019-05-16","\N","\N","1","\N","\N"
+"25","3","2","Project planning","Please execute the related tasks:
+
+* ##26
+* ##27
+* ##28
+* ##29
+* ##30
+* ##31
+* ##32
+","2019-05-16","\N","6","1","9","\N","1","1","0","8","2019-05-17 12:04:51.754106","2019-05-17 12:04:52.22489","2019-05-13","\N","\N","1","\N","\N"
+"33","3","2","Develop v1.0","\N","2019-06-06","\N","6","1","8","\N","1","0","0","\N","2019-05-17 12:04:52.231491","2019-05-17 12:04:52.245261","2019-05-20","\N","\N","1","\N","\N"
+"34","4","2","Great feature","\N","2019-05-28","\N","9","1","8","\N","1","1","0","\N","2019-05-17 12:04:52.251588","2019-05-17 12:04:52.280299","2019-05-20","\N","\N","1","\N","\N"
+"35","4","2","Best feature","\N","2019-06-03","\N","3","1","8","\N","1","1","0","\N","2019-05-17 12:04:52.286432","2019-05-17 12:04:52.31404","2019-05-29","\N","\N","1","\N","\N"
+"38","3","2","Develop v1.1","\N","2019-06-12","\N","6","1","8","\N","1","0","0","\N","2019-05-17 12:04:52.37779","2019-05-17 12:04:52.389555","2019-06-10","\N","\N","1","\N","\N"
+"66","1","9","Web page","","\N","\N","1","\N","8","\N","3","0","0","\N","2019-05-20 09:17:50.785476","2019-05-20 09:17:50.843025","\N","\N","\N","1","\N","\N"
+"39","4","2","Wonderful feature","\N","2019-06-10","\N","1","1","8","\N","1","1","0","\N","2019-05-17 12:04:52.395372","2019-05-17 12:04:52.422711","2019-06-10","\N","\N","1","\N","\N"
+"58","1","3","Load Calculation","","\N","\N","1","\N","8","\N","3","1","0","16","2019-05-17 15:27:59.636072","2019-05-17 15:28:09.154286","\N","\N","\N","1","\N","16"
+"40","7","2","Ugly bug","\N","2019-06-12","\N","1","1","8","\N","1","1","0","\N","2019-05-17 12:04:52.428774","2019-05-17 12:04:52.456223","2019-06-12","\N","\N","1","\N","\N"
+"72","1","4","Accounting","Recording of financial transactions and related tasks.","\N","\N","1","3","8","\N","3","1","0","\N","2019-05-24 09:34:54.255642","2019-05-24 09:35:09.690787","\N","\N","\N","1","\N","\N"
+"41","2","2","Go-Live v1.1","\N","2019-06-14","\N","5","1","8","\N","1","0","0","\N","2019-05-17 12:04:52.465081","2019-05-17 12:04:52.477485","2019-06-14","\N","\N","1","\N","\N"
