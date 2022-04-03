@@ -5,7 +5,7 @@ settings = ifcopenshell.geom.settings()
 settings.set(settings.USE_BREP_DATA,True)
 settings.set(settings.SEW_SHELLS,True)
 settings.set(settings.USE_WORLD_COORDS,True)
-settings.set(settings.INCLUDE_CURVES,True)     # for stuct
+settings.set(settings.INCLUDE_CURVES,True)     # for struct
 
 # open file
 file_path = './'
