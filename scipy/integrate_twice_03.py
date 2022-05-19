@@ -2,8 +2,10 @@
 import numpy as np
 from scipy.integrate import trapz
 
+k= 4.0
+
 def a(x):
-    return x
+    return k
 
 def samplePoints(x0, x1, n):
     ''' Return a list of sample points.
@@ -63,13 +65,15 @@ lb, ub = 0.0, 1.0
 n= 10
 
 integral1 = firstIntegral(lb, ub, a, n)
-error1= abs(integral1-1/2.0)/(1/2.0)
+integral1Ref= k*(ub-lb)
+error1= abs(integral1-integral1Ref)/integral1Ref
 integral2 = secondIntegral(lb, ub, a, n)
-error2= abs(integral2-1/6.0)/(1/6.0)
+integral2Ref= k/2.0*(ub**2-lb**2)
+error2= abs(integral2-integral2Ref)/integral2Ref
 
 lb, ub = 0.0, 7.0
 integral2b = secondIntegral(lb, ub, a, n)
-integral2bRef= 1/6.0*(ub**3-lb**3)
+integral2bRef= k/2.0*(ub**2-lb**2)
 error3= abs(integral2b-integral2bRef)/integral2bRef
 
 print('integral1: ', integral1, 'error1= ', error1)
