@@ -8,8 +8,8 @@ if(len(sys.argv)<2):
     quit()
 
 
-inputFile= sys.argv[1]
-outputFile= Path(inputFile).stem+'.yaml'
+inputFileName= sys.argv[1]
+outputFileName= Path(inputFileName).stem+'.yaml'
 
-print('inputFile: ', inputFile)
-print('outputFile: ', outputFile)
+print('inputFileName: ', inputFileName)
+print('outputFileName: ', outputFileName)
