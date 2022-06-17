@@ -1,0 +1,29 @@
+\documentclass[11pt]{article}
+
+\usepackage{pythontex}
+
+\begin{pycode}
+import sys
+row_data = '\\hline1&data1&0:01:45\\\\\n'
+row_data = row_data + '\\hline2&data2&0:01:40\\\\\n'
+\end{pycode}
+
+\begin{document}
+
+\begin{center}
+
+% Does work!
+\pyc{tabular_str = ""}
+\pyc{tabular_str = tabular_str + "\\begin{tabular}{|l|l|r|}\n"}%
+\pyc{tabular_str = tabular_str + "\\hline \n"}%
+\pyc{tabular_str = tabular_str + "\\textbf{No.} & \\textbf{Topic Name} & \\textbf{Time}\\\\\n"}%
+\pyc{tabular_str = tabular_str + row_data}%
+\pyc{tabular_str = tabular_str + "\\hline \n"}%
+\pyc{tabular_str = tabular_str + "& \\textbf{Grand Total} & \\textbf{ total }\\\\\n"}%
+\pyc{tabular_str = tabular_str + "\\hline \n"}%
+\pyc{tabular_str = tabular_str + "\\end{tabular}\n"}%
+\pyc{print(tabular_str, file=sys.stdout, flush=True)}%
+
+\end{center}
+
+\end{document}
