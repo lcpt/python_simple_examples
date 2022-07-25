@@ -8,7 +8,9 @@ def f(x):
 
 sol = optimize.root_scalar(f, bracket=[0, 3], method='brentq')
 
+#print('Brentq method',sol)
 print(sol.root)
 sol = optimize.root_scalar(f, bracket=[0, 3], method='bisect')
+#print('Bisect method',sol)
 
 print(sol.root)
