@@ -4,10 +4,9 @@ import ezdxf
 doc = ezdxf.new(dxfversion="R2010")
 
 # Create new table entries (layers, linetypes, text styles, ...).
-#doc.layers.add("TEXTLAYER", color=2)
-doc.layers.new(name="MyLines")
-doc.layers.color=7
-doc.layers.linetype="DASHED"
+newLayer= doc.layers.new(name="MyLines")
+newLayer.color=7
+newLayer.linetype="DASHED"
 
 # DXF entities (LINE, TEXT, ...) reside in a layout (modelspace, 
 # paperspace layout or block definition).  
