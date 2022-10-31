@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+''' Read json file.'''
 __author__= "Luis C. Pérez Tato (LCPT) and Ana Ortega (AO_O)"
 __copyright__= "Copyright 2022, LCPT and AO_O"
 __license__= "GPL"
