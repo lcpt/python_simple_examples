@@ -9,7 +9,5 @@ plt.xlabel("Average Pulse")
 plt.ylabel("Calorie Burnage")
 
 plt.plot(x, y)
-
 plt.grid()
-
 plt.show() 
