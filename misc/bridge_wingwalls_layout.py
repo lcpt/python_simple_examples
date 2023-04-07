@@ -9,10 +9,6 @@
 
 import math
 
-
-
-
-
 L= 10.0 #Span
 phi= math.radians(90.0) #Bridge skew angle.
 
@@ -23,8 +19,8 @@ tgPhi= math.tan(phi)
 #The expression in the book is incorrect use this:
 beta= math.atan2(sinAlpha*tgPhi,(tgPhi*cosAlpha-2*sinAlpha)) #Wingwall angle
 
-print 'alpha= ', math.degrees(alpha)
-print 'beta= ', math.degrees(beta)
+print('alpha= ', math.degrees(alpha))
+print('beta= ', math.degrees(beta))
 
 
 
