@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-''' Simple example that shows how to create an Excel book.'''
+''' Simple example that shows how to create an spreadsheet book.'''
 
 from collections import OrderedDict
 import pyexcel as pe
