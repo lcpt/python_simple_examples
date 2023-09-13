@@ -3,7 +3,7 @@
 import FreeCAD
 import Part
 
-doc = App.newDocument("Techdraw section")
+doc = App.newDocument("Techdraw view")
 cubeShape = Part.makeBox(2, 2, 2)
 cube= Part.show(cubeShape)
 cube.Label= 'cube'
