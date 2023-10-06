@@ -24,25 +24,31 @@ cone.Height = 3
 cone.Angle = 270
 cone.Placement = App.Placement(App.Vector(1, 1, 3), App.Rotation(0, 0, 0))
 
-# Create line to orient section.
-p1= FreeCAD.Vector(2, 0, 0)
-p2= FreeCAD.Vector(0, 2, 0)
-cutLine = Draft.makeWire([p1, p2], closed= False)
-cutLine.Label= 'cutLine'
-cutLine.recompute()
+# Create face to orient section.
+extension= 7
+origin= FreeCAD.Vector(1.25, 0, 0)
+dirVector= FreeCAD.Vector(1, 1, 0).normalize()
 kVector= FreeCAD.Vector(0,0,1)
-iVector= cutLine.Shape.Edges[0].tangentAt(0)
-jVector= kVector.cross(iVector)
-center= cutLine.Shape.CenterOfMass
+p1= origin-extension*dirVector
+p2= origin+extension*dirVector
+p3= p1+extension*kVector
+p4= p2+extension*kVector
+cutFace= Draft.makeWire([p1, p2, p4, p3], closed= True)
+cutFace.Label= 'cutFace'
+cutFace.recompute()
 
+jVector= cutFace.Shape.normalAt(0,0)
+center= cutFace.Shape.CenterOfMass
 cutPlanePlacement= FreeCAD.Placement(center,FreeCAD.Rotation(kVector,jVector))
 
-# Create section.
+
+# Create arch section.
 # Activate Draft workbench (otherwise there is no active working plane). 
 FreeCADGui.activateWorkbench("DraftWorkbench")
 
 Section1 = Arch.makeSectionPlane([cube, cone], name= 'Section1')
 Section1.Placement= cutPlanePlacement
+Section1.recompute()
 # print(Section1.Objects)
 
 # You can use Section1 as argument of Shape2DView to create the section.
