@@ -62,7 +62,7 @@ arrow = vtk.vtkArrowSource()#vtk.vtkConeSource()
  
 # Set up the glyph filter
 glyph = vtk.vtkGlyph3D()
-glyph.SetInput(polydata)
+glyph.SetInputData(polydata)
 glyph.SetSourceConnection(arrow.GetOutputPort())
 glyph.ScalingOn()
 glyph.SetScaleModeToScaleByScalar()
