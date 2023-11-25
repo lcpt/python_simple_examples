@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
-''' Importa el replanteo del eje sobre la pergola.'''
+''' Imports the railway axis over the bridge.'''
+
+__author__= "Luis C. Pérez Tato (LCPT)"
+__copyright__= "Copyright 2023, LCPT"
+__license__= "GPL"
+__version__= "3.0"
+__email__= "l.pereztato@ciccp.es"
 
 import pyexcel as pe
 

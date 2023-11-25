@@ -1,4 +1,11 @@
 # -*- coding: utf-8 -*-
+''' sqlite3 module example. SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.'''
+
+__author__= "Luis C. Pérez Tato (LCPT)"
+__copyright__= "Copyright 2023, LCPT"
+__license__= "GPL"
+__version__= "3.0"
+__email__= "l.pereztato@ciccp.es"
 
 import sqlite3
 import os

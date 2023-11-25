@@ -1,5 +1,12 @@
-#! /usr/bin/env python
 # -*- coding: utf-8 -*-
+#! /usr/bin/env python
+''' Set locale demo.'''
+
+__author__= "Luis C. Pérez Tato (LCPT)"
+__copyright__= "Copyright 2023, LCPT"
+__license__= "GPL"
+__version__= "3.0"
+__email__= "l.pereztato@ciccp.es"
 
 import locale
 
