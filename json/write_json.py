@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-''' Write json file.'''
+''' Write json file. JSON (JavaScript Object Notation) is a lightweight data-interchange format.'''
 
 __author__= "Luis C. Pérez Tato (LCPT) and Ana Ortega (AO_O)"
 __copyright__= "Copyright 2022, LCPT and AO_O"
