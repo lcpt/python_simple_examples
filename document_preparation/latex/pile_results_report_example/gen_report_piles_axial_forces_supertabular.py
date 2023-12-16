@@ -12,6 +12,7 @@ import os
 import json
 import csv
 from tabulate import tabulate
+import logging
 
 # Read the results on the piles.
 pileResultsFileName= './piles_axial_force.json'
@@ -20,7 +21,7 @@ if os.path.isfile(pileResultsFileName):
     with open(pileResultsFileName,'r') as f:# Open JSON file
         pilesNdict= json.load(f)
 else:
-   lmsg.warning("file: '"+str(pileResultsFileName)+"' not found.")  
+    logging.warning("file: '"+str(pileResultsFileName)+"' not found.")  
 
 # Extract data to include in LaTeX table and drawings
 latexDataRows= list()
@@ -45,36 +46,48 @@ with open(csvFileName, 'w') as csvfile:
     
 # print(tabulate(latexDataRows))
 
-tableHead= '''
+
+tableBegin= '''
+\\topcaption{#tableTitle#} \\label{#tableLabel#}
+\\tablefirsthead{\\hline \\multicolumn{8}{|c|}{#tableTitle#} \\\\
+\hline
+       &      & \\multicolumn{3}{|c|}{ELS} & \\multicolumn{3}{c|}{ELU}\\\\
+\hline
+Pilote & Tipo & $N_{min}\ (kN)$ & CF & Comb. &  $N_{min}\ (kN)$ & CF & Comb.\\\\
+\hline
+}
+\\tablehead{\hline
+       &      & \\multicolumn{3}{|c|}{ELS} & \\multicolumn{3}{c|}{ELU}\\\\
+\hline
+Pilote & Tipo & $N_{min}\ (kN)$ & CF & Comb. &  $N_{min}\ (kN)$ & CF & Comb.\\\\
+\hline
+}
+\\tabletail{\\hline 
+\\multicolumn{8}{r}{\emph{#continuesMsg#}} \\\\
+}
+\\tablelasttail{\\hline 
+}
+
 \\begin{center}
-\\begin{longtable}{|c|c|rrr|rrr|}
-\\caption{Maximum axial load in piles} \\label{tab:axil_pilotes} \\\\
-\hline
-       &      & \\multicolumn{3}{|c|}{ELS} & \\multicolumn{3}{c|}{ELU}\\\\
-\hline
-Pilote & Tipo & $N_{min}\ (kN)$ & CF & Comb. &  $N_{min}\ (kN)$ & CF & Comb.\\\\
-\\endfirsthead
-\hline
-       &      & \\multicolumn{3}{|c|}{ELS} & \\multicolumn{3}{c|}{ELU}\\\\
-\hline
-Pilote & Tipo & $N_{min}\ (kN)$ & CF & Comb. &  $N_{min}\ (kN)$ & CF & Comb.\\\\
-\\endhead
-\\hline 
-\\multicolumn{8}{r}{\emph{Continúa en la página siguiente}} \\\\
-\\endfoot
-\\hline 
-\\endlastfoot
+\\begin{supertabular}{|c|c|rrr|rrr|}
 '''
 
-tableTail= '''
-\\end{longtable}
+tableEnd= '''
+\\end{supertabular}
 \\end{center}
 '''
+tableTitle= 'Minimum axial load in piles'
+tableLabel= 'tb_maximum_pile_loads'
+continuesMsg= 'Continued on next column'
 
-texFileName= './piles_axial_force.tex'
+tableBegin= tableBegin.replace('#tableTitle#', tableTitle)
+tableBegin= tableBegin.replace('#tableLabel#', tableLabel)
+tableBegin= tableBegin.replace('#continuesMsg#', continuesMsg)
+
+texFileName= './piles_axial_force_supertabular.tex'
 
 with open(texFileName, 'w') as texF:
-    texF.write(tableHead)
+    texF.write(tableBegin)
     for row in latexDataRows:
         pileId= row[0]
         outputStr= pileId
@@ -93,5 +106,5 @@ with open(texFileName, 'w') as texF:
         outputStr+= ' & '+ row[7] # worst ELU combination.
         outputStr+='\\\\\n'
         texF.write(outputStr)
-    texF.write(tableTail)
+    texF.write(tableEnd)
          
