@@ -29,7 +29,10 @@ latex_aux_extensions= ['.aux', '.log', '.out',
                        '.ist', '.synctex*', '.alg']
 
 def get_latex_aux_posix_paths(texFileName):
-    ''' Get LaTeX auxiliary file names from the given name.'''
+    ''' Get LaTeX auxiliary file names from the given name.
+
+    :param texFileName: name of the TeX file.
+    '''
     pth= Path(texFileName)
     retval= list()
     for ext in latex_aux_extensions:
