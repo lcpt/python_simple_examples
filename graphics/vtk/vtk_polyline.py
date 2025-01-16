@@ -63,6 +63,7 @@ def main():
 
     actor = vtkActor()
     actor.SetMapper(mapper)
+    actor.GetProperty().SetLineWidth(5)
     actor.GetProperty().SetColor(colors.GetColor3d('Tomato'))
 
     # Setup render window, renderer, and interactor
