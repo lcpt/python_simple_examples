@@ -1,18 +1,19 @@
-# Example of how to use range clamping with vtkGlyph3D filter.
-#
-# Note that the internal algorithm does this to figure out the eventual scale
-# of your data (say, if you're scaling by a scalar or vector magnitude):
-#
-# 	scale = (scalar value of that particular data index);
-# 	denominator = Range[1] - Range[0];
-# 	scale = (scale < Range[0] ? Range[0] : (scale > Range[1] ? Range[1] : scale));
-# 	scale = (scale - Range[0]) / denominator;
-# 	scale *= scaleFactor;
-#
-# So, step 4 is the unintuitive one. Say your data varies from [0, 1] and you set the
-# Range to [0.5, 1]. Everything below 0.5 will be mapped to 0. If you want to set a
-# minimum size to your glyphs, then you can set the Range as something like [-0.5, 1]
- 
+'''
+Example of how to use range clamping with vtkGlyph3D filter.
+
+Note that the internal algorithm does this to figure out the eventual scale
+of your data (say, if you're scaling by a scalar or vector magnitude):
+
+	scale = (scalar value of that particular data index);
+	denominator = Range[1] - Range[0];
+	scale = (scale < Range[0] ? Range[0] : (scale > Range[1] ? Range[1] : scale));
+	scale = (scale - Range[0]) / denominator;
+	scale *= scaleFactor;
+
+So, step 4 is the unintuitive one. Say your data varies from [0, 1] and you set the
+Range to [0.5, 1]. Everything below 0.5 will be mapped to 0. If you want to set a
+minimum size to your glyphs, then you can set the Range as something like [-0.5, 1]
+'''
  
 import vtk
  
