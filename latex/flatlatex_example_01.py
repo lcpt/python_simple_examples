@@ -13,6 +13,7 @@ c= flatlatex.converter()
 
 
 print(c.convert('\epsilon_{xx}'))
+print(c.convert('\epsilon_{zz}'))
 print(c.convert('\sigma_{xx}'))
 print(c.convert('\sigma_{zz}'))
 print(c.convert('\sigma_{33}'))
