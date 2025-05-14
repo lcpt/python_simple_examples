@@ -2,8 +2,8 @@ from scipy.spatial.distance import cdist
 from scipy.spatial.distance import pdist
 
 def group_points_by_distance(coords, threshold):
-    ''' Return group of points that are near that threshold. The points are
-        identified by its index in the given array.
+    ''' Return group of points that are near than the given threshold. The 
+        points are identified by its index in the given array.
 
     :param coords: list of coordinate lists.
     :param threshold: upper limit of the distance to consider the points in the
