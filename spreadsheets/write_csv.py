@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+''' Write CSV file.'''
 import csv
 
 with open('write_csv.csv', 'w') as file:
