@@ -12,6 +12,8 @@ __email__= "l.pereztato@ciccp.es" "ana.Ortega@ciccp.es"
 def get_latex_document_contents(inputFile):
     ''' From a LaTeX document extract the text between \begin{document} and 
         \end{document}.
+
+    :param inputFile: file to extract the content from.
     '''    
     retval= str()
     readRetval= False
